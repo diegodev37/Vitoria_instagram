@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+
+    background-color: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caixa-texto {
+    margin: 10px;
+    width: 400px;
+    margin-left: 0;
+    right: 100px;
+    min-width: 1000px;
+
+}
+
+.caixa-texto h1 {
+    margin: 10px;
+    width: 400px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.caixa-texto p {
+    margin: 10px;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    line-height: 30px;
+    font-weight: 200;
+
+}
+
+.button {
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+    background-color: palevioletred;
+    transition: 1s;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    background-color: rgb(127, 182, 233);
+    transition: 1.5s;
+    color: black;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+}
+
+
+.foto-principal {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.foto-principal:hover {
+    width: 600px;
+    height: 600px;
+    transition: 2s;
+}
+
+.circulo {
+    width: 0px;
+    height: 0px;
+    background-color: rgb(127, 182, 233);
+    border-radius: 50%;
+    box-shadow: 2px 0px 10px 2px;
+    transition: 1.5s;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+
+}
+
+.circulo:hover {
+    width: 350px;
+    height: 350px;
+    transition: 2s;
+    background-color: rgb(247, 158, 173);
+
+}
+
+@media(max-width:700px) {
+    body {
+        display: inline-block;
+        overflow-x: hidden;
+        /*esconder scroll lateral*/
+
+    }
+    .caixa-texto{
+        margin-left: 200px;
+    }
+  
+
+    .caixa-texto h1 {
+        font-size: 29px;
+
+    }
+
+    .caixa-texto p {
+        font-size: 15px;
+        
+    }
+
+    .button {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .circulo {
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 200px;
+
+    }
+
+
+    .circulo:hover {
+        width: 300px;
+        height: 300px;
+        transition: 1.5s;
+        background-color: rgb(247, 158, 173);
+
+    }
+
+    .foto-principal {
+        width: 400px;
+        height: 400px;
+        position: relative;
+
+    }
+
+    .foto-principal:hover {
+        width: 400px;
+        height: 400px;
+
+    }
+}
+@media(max-width:500px) {
+    body {
+        display: inline-block;
+        overflow-x: hidden;
+        /*esconder scroll lateral*/
+
+    }
+    .caixa-texto{
+        margin-left: 0px
+    }
+
+    .caixa-texto h1 {
+        font-size: 29px;
+    }
+
+    .caixa-texto p {
+        font-size: 15px;
+    }
+
+    .button {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .circulo {
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 20px;
+
+    }
+
+
+    .circulo:hover {
+        width: 300px;
+        height: 300px;
+        transition: 1.5s;
+        background-color: rgb(247, 158, 173);
+
+    }
+
+    .foto-principal {
+        width: 400px;
+        height: 400px;
+        position: relative;
+
+    }
+
+    .foto-principal:hover {
+        width: 400px;
+        height: 400px;
+
+    }
+}
