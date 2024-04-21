@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 
 }
 
@@ -9,16 +10,24 @@ body {
     background-color: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     ;
+    
+
+
+}
+
+.caixa-total {
+    min-height: 90vh;
+    max-width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .caixa-texto {
     margin: 10px;
     width: 400px;
-    margin-left: 0;
+    left: 0;
     right: 100px;
     min-width: 1000px;
 
@@ -108,16 +117,19 @@ body {
 }
 
 @media(max-width:700px) {
-    body {
+ 
+
+    .caixa-total {
+
         display: inline-block;
-        overflow-x: hidden;
-        /*esconder scroll lateral*/
+        overflow-x: hidden; /*esconder scroll lateral*/
 
     }
-    .caixa-texto{
+
+    .caixa-texto {
         margin-left: 200px;
     }
-  
+
 
     .caixa-texto h1 {
         font-size: 29px;
@@ -126,7 +138,7 @@ body {
 
     .caixa-texto p {
         font-size: 15px;
-        
+
     }
 
     .button {
@@ -165,19 +177,23 @@ body {
 
     }
 }
+
 @media(max-width:500px) {
-    body {
+    .caixa-total {
         display: inline-block;
-        overflow-x: hidden;
-        /*esconder scroll lateral*/
+        overflow-x: hidden;/*esconder scroll lateral*/
 
     }
-    .caixa-texto{
-        margin-left: 0px
+   
+
+    .caixa-texto {
+        margin-left: 0px;
+        
     }
 
     .caixa-texto h1 {
         font-size: 29px;
+        
     }
 
     .caixa-texto p {
