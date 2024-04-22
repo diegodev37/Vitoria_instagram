@@ -1,6 +1,6 @@
 <h1>Projeto Vitória Instagram</h1>
 <br>
-<p>- Esse projeto tive o prazer de desenvolver para minha filha divulgar por mei dessa página web seu instagram e assim poder chamar mais atenção para captação de novos seguidores.</p>
+<p>- Esse projeto tive o prazer de desenvolver para minha filha divulgar por meio dessa página web seu instagram e assim poder chamar mais atenção para captação de novos seguidores.</p>
 
 <p> - Apliquei meus conhecimentos com as tecnologias que estou aprendendo junto ao professor Rodolfo Mori no DevClub.</p>
 
@@ -8,7 +8,7 @@
 
 
 
-<h2>Projeto ja com responsividade mobile!</h2>
+<h2>Projeto já com responsividade mobile!</h2>
 
 https://landingpagevivi.netlify.app/
 
