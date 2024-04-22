@@ -1,1 +1,1 @@
-https://vitoria-instagram.netlify.app/
+https://landingpagevivi.netlify.app/
